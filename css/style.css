@@ -192,7 +192,11 @@ p {
 
 @media (max-width: 480px) {
   .form-wrap {
-    margin: 0 !important; } }
+      margin: 0 !important; }
+  .slider-content_wrap h1{
+      margin-top: 65px;
+  }
+}
 
 .btn-group {
   width: 100%; }
@@ -260,7 +264,8 @@ p {
       .slider-link span {
           display: block; } }
   .slider-link a {
-    color: #909090;
+      color: #909090;
+      pointer-events: none;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s; }
@@ -274,6 +279,45 @@ p {
   .slider-link a:hover {
       text-decoration: none;
   }
+
+  div.join-buttons button{
+      margin-top: 10px;
+      cursor:pointer;
+  }
+
+
+  .single-special {
+    border: 1px solid #eff2f6;
+    padding: 40px;
+    border-radius: 40px 40px 40px 0px;
+    -webkit-transition-duration: 800ms;
+    -o-transition-duration: 800ms;
+    transition-duration: 800ms;
+    margin-bottom: 30px;
+  }
+  .single-special:hover {
+    -webkit-box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
+            box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
+  }
+
+  .single-special p {
+      margin-bottom: 0;
+  }
+
+  .single-icon > i {
+    font-size: 36px;
+    color: #ff3a6d;
+}
+
+.single-special > h4 {
+    font-size: 22px;
+    color: inherit;
+}
+
+.single-icon {
+    margin-bottom: 25px;
+}
+
 
 
 /* ==============================================================
@@ -965,5 +1009,17 @@ footer {
 #map {
   height: 100%;
   width: 100%; }
+
+  .foodie-color-background{
+      background:#2cb595 !important;
+  }
+
+  .foodie-color-text{
+      color: #2cb595 !important;
+  }
+
+  .shared-love-color{
+      color: #ffb33a !important;
+  }
 
 /*# sourceMappingURL=style.css.map */
