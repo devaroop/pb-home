@@ -1090,4 +1090,9 @@ footer {
   .sticky-notes-background{
       background: #b2cccc36;
   }
+
+  .colorlib-courtesy-statement{
+      font-size:10px !important;
+      color: #909090 !important;
+  }
 /*# sourceMappingURL=style.css.map */
