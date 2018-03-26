@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,378 +24,400 @@
     <!-- Main CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link href='http://fonts.googleapis.com/css?family=Reenie+Beanie&amp;subset=latin' rel='stylesheet' type='text/css'>
-</head>
+  </head>
 
-<body>
-  <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) return;
-     js = d.createElement(s); js.id = id;
-     js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12';
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));</script>
-  
-  <!--============================= HEADER =============================-->
-  <div class="nav-menu">
-    <div class="bg transition">
-      <div class="container-fluid fixed">
-        <div class="row">
-          <div class="col-md-12">
-            <nav class="navbar navbar-expand-lg navbar-light">
-              <a class="navbar-brand" href="index.html">PapaBolley</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="icon-menu"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li><a href="#" class="btn btn-outline-light top-btn"><span class="ti-plus"></span> Join Community</a></li>
-                </ul>
-              </div>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- SLIDER -->
-  <section class="slider d-flex align-items-center">
-    <!-- <img src="images/slider.jpg" class="img-fluid" alt="#"> -->
-    <div class="container">
-      <div class="row d-flex justify-content-center">
-        <div class="col-md-12">
-          <div class="slider-title_box">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="slider-content_wrap">
-                  <h1>Affordable. Hygienic. Social. Food</h1>
-                  <h5>Largest community of home cooks catering the neighbourhood</h5>
-                </div>
-              </div>
-            </div>
-            <div class="row d-flex justify-content-center">
-              <div class="col-md-10">
-		<div class="join-buttons">
-                  <button class="btn-form">JOIN AS COOK</button>
-		  <button class="btn-form foodie-color-background">JOIN AS FOODIE</button>
+  <body>
+    <!-- FB tag -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) return;
+       js = d.createElement(s); js.id = id;
+       js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12';
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));</script>
+    <!-- end fb tag-->
+    <!-- twitter tag -->
+    <script>window.twttr = (function(d, s, id) {
+       var js, fjs = d.getElementsByTagName(s)[0],
+	   t = window.twttr || {};
+       if (d.getElementById(id)) return t;
+       js = d.createElement(s);
+       js.id = id;
+       js.src = "https://platform.twitter.com/widgets.js";
+       fjs.parentNode.insertBefore(js, fjs);
+
+       t._e = [];
+       t.ready = function(f) {
+	 t._e.push(f);
+       };
+
+       return t;
+     }(document, "script", "twitter-wjs"));</script>
+    <!-- end twitter tag -->
+    <!--============================= HEADER =============================-->
+    <div class="nav-menu">
+      <div class="bg transition">
+	<div class="container-fluid fixed">
+          <div class="row">
+            <div class="col-md-12">
+              <nav class="navbar navbar-expand-lg navbar-light">
+		<a class="navbar-brand" href="index.html">PapaBolley</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="icon-menu"></span>
+		</button>
+		<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li><a href="#join" class="btn btn-outline-light top-btn"><span class="ti-plus"></span> Join Community</a></li>
+                  </ul>
 		</div>
-                <div class="slider-link">
-                  <a href="#">Pune <sup>new</sup></a> | <a href="#">Mumbai <sup>new</sup></a> | <a href="#">Goa</a> | <a href="#">Cochin</a> | <a href="#">Hyderabad</a> | <a href="#">New York</a> | <a href="#">Chicago</a> | <a href="#">Los Angeles</a> | <a href="#">Berlin</a> | <a href="#">Brussels</a> | <a href="#">Copenhagen</a> | <a href="#">Vienna</a> | <a href="#">Sydney</a> | <a href="#">Melbourn</a> | <a href="#">Budapest</a> | <a href="#">Santiago</a> | <a href="#">Prague</a> | <a href="#">Hong Kong Central</a>
-                </div>
-              </div>
+              </nav>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--// SLIDER -->
-  <!--//END HEADER -->
-  
-  <!--============================= About / how it works =============================-->
-  <section class="main-block">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-5">
-          <div class="styled-heading">
-            <h3>How it works</h3>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-	  <div class="add-listing-wrap">
-	    <p><i>PapaBolley is the largest trust-based community of home cooks in the world</i> creating unforgettable food experiences daily to the neighbourhood. As a home cook, you earn money by not just providing affordable and tasty home food, but also enrich a foodie's experience with your authentic homely ambience. As a foodie, you get to eat authentic, hygienic food at affordable prices at walking distance from wherever you are, and enjoy experiences of your host at their home.</p>
-          </div>
-	</div>
-      </div>
-      <div class="row">
-        <!-- Single Special Area -->
-        <div class="col-12 col-md-4">
-          <div class="single-special text-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-            <div class="single-icon">
-              <i class="ti-check" aria-hidden="true"></i>
-            </div>
-            <h4>No extra cooking</h4>
-            <p>Home cooks prepare whatever they had planned to eat. Just cook bit more for guests. No separate cooking!</p>
-          </div>
-        </div>
-        <!-- Single Special Area -->
-        <div class="col-12 col-md-4">
-          <div class="single-special text-center wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-            <div class="single-icon">
-              <i class="ti-direction-alt foodie-color-text" aria-hidden="true"></i>
-            </div>
-            <h4>Foodies Choose</h4>
-            <p>Registered and verified foodies nearby choose the type, experience, pricing and ping cooks to be their dining guest.</p>
-          </div>
-        </div>
-        <!-- Single Special Area -->
-        <div class="col-12 col-md-4">
-          <div class="single-special text-center wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
-            <div class="single-icon">
-              <i class="ti-face-smile shared-love-color" aria-hidden="true"></i>
-            </div>
-            <h4>Shared love</h4>
-            <p>Both share the love by rating each other. The community keeps growing by spreading the service.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--//END About / how it works -->
-  
-  <!--============================= Random Lisings =============================-->
-  <section class="main-block light-bg">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-5">
-          <div class="styled-heading">
-            <h3>The Community</h3>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-	  <div class="add-listing-wrap">
-	    <p>The community is a family of thousands of <i>PapaBolley Cooks</i> and <i>PapaBolley Foodies</i> spread across all continents in the world. It is a self-driven self-running community aimed at multiplying experiences among people through food.</p> 
-          </div>
-	</div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-4 featured-responsive">
-          <div class="featured-place-wrap">
-            <img src="images/featured1.jpg" class="img-fluid" alt="#">
-            <span class="featured-rating-orange">7.3</span>
-            <div class="featured-title-box">
-              <h6>The Collins Joy</h6>
-              <p>Irish food</p> <span>• </span>
-              <p>394 Reviews</p> <span> • </span>
-              <p><span>$7</span> (avg)</p>
-              <ul>
-                <li><span class="icon-location-pin"></span>
-                  <p>2641 Britz Av, Osterbro, DK 1657</p>
-                </li>
-                <li><span class="icon-screen-smartphone"></span>
-                  <p>+45 20 7*** **45</p>
-                </li>
-                <li><span class="icon-plus"></span>
-                  <p>Music, TV Shows, Lovely dog, Noisy kids</p>
-                </li>
-
-              </ul>
-              <div class="bottom-icons">
-                <div class="closed-now">OPENS AT 9AM (CET)</div>
-                <span class="ti-heart"></span>
-                <span class="ti-bookmark"></span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 featured-responsive">
-          <div class="featured-place-wrap">
-            <img src="images/featured2.jpg" class="img-fluid" alt="#">
-            <span class="featured-rating-green">8.3</span>
-            <div class="featured-title-box">
-              <h6>Cheerz Family Time</h6>
-              <p>Sou. Aus Food </p> <span>• </span>
-              <p>46 Reviews</p> <span> • </span>
-              <p><span>A$10</span></p>
-              <ul>
-                <li><span class="icon-location-pin"></span>
-                  <p>12 Parkville, Melbourn, AUS 3312</p>
-                </li>
-                <li><span class="icon-screen-smartphone"></span>
-                  <p>+61 3 9** ***8</p>
-                </li>
-                <li><span class="icon-plus"></span>
-                  <p>Fiction chat, Kids park, Riverside</p>
-                </li>
-              </ul>
-              <div class="bottom-icons">
-		<div class="open-now">OPEN NOW</div>
-                <span class="ti-heart"></span>
-                <span class="ti-bookmark"></span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 featured-responsive">
-          <div class="featured-place-wrap">
-            <img src="images/featured3.jpg" class="img-fluid" alt="#">
-            <span class="featured-rating">5.5</span>
-            <div class="featured-title-box">
-              <h6>Myraids Home</h6>
-              <p>Norwegian </p> <span>• </span>
-              <p>6 Reviews</p> <span> • </span>
-              <p><span>€5</span> (avg)</p>
-              <ul>
-                <li><span class="icon-location-pin"></span>
-                  <p>43 Műegyetem, Budapest rkp9</p>
-                </li>
-                <li><span class="icon-screen-smartphone"></span>
-                  <p>+361 3** **41</p>
-                </li>
-		<li><span class="icon-plus"></span>
-                  <p>River, Books, Boat ride, Garden</p>
-                </li>
-              </ul>
-              <div class="bottom-icons">
-                <div class="open-now">OPEN NOW</div>
-                <span class="ti-heart"></span>
-                <span class="ti-bookmark"></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--//END FEATURED PLACES -->
-
-  
-  <!--============================= Inspiration =============================-->
-  <section class="main-block">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-5">
-          <div class="styled-heading">
-            <h3>Inspiration</h3>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-12">
-	  <div class="add-listing-wrap">
-	    <p>PapaBolley is inspired by people who are tired eating at restaurants and clubs at super expensive prices everyday and also to help people who don't find time to carry lunch to work. It is an opportunity for homemakers and families to earn a few bucks by sharing food daily and spread love. Foodies at PapaBolley are also travellers who look to have real-authentic local cusine which is a rare find in restaurants today.</p>
-	    <p>Both the <i>cooks and the foodies are pre-verified</i> by the PapaBolley network before registration. Additionally, the kitchens at homes are also inspected for hygiene and food quality for utmost satisfaction of the community.</p>
           </div>
 	</div>
       </div>
     </div>
-  </section>
-  <!--//END FIND PLACES -->
-  <!--============================= Reviews =============================-->
-  <section class="main-block sticky-notes-background">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-5">
-          <div class="styled-heading">
-            <h3>Community says</h3>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-	  <ul id="notes">
-	    <li class="sticky-color-background">
-	      <p>Shiela and I didn't just eat, we watched our high school pictures and gigled.
-		- Rachael
-	      </p>
-	    </li>
-	    <li class="alternate-sticky-color-background">
-	      <p>I love Goa, Mr Carvalho's house can't be more authentic. Played cricket with the kids too.
-		- Madison, UK
-	      </p>
-	    </li>
-	    <li>		
-	      <p>I think m good cook but never got chance. My rating makes me happy. Love good people.
-		- Művek, Hungary
-	      </p>
-	    </li>
-	  </ul>
-        </div>
-
-	<div class="col-md-4">
-	  <ul id="notes">
-	    <li>
-	      <p>I have lunch and watch TV at Mrs. Reddy's house everyday. Shes like a mom away from house and its close to my work.
-		- Sahil, Lucknow
-	      </p>
-	    </li>
-	    <li class="sticky-color-background">
-	      <p>Wish I knew about this earlier. I get company for lunch everyday and go out fishing sometimes with them.
-		- Leachso, NL
-	      </p>
-	    </li>
-	    <li class="alternate-sticky-color-background"> 
-	      <p>My in-laws are finally happy Im doing something and meeting people. My love for food has scaled thru this platform.
-		- Seema, India
-	      </p>
-	    </li>
-	  </ul>
-        </div>
-
-	<div class="col-md-4">
-	  <ul id="notes">
-	    <li class="alternate-sticky-color-background">
-	      <p>The best part - her dog, is so lovely. He started recognising me in 2 days. Love this place.
-		- Djokovick
-	      </p>
-	    </li>
-	    <li>
-	      <p>Don respects me a lot. He comes home everyday for lunch and gets me cookies on the way. Such a sweetheart.
-		- Sal, Santiago
-	      </p>
-	    </li>
-	    <li class="sticky-color-background">
-	      <p>I don't make much and outside food makes me sick. Thanks to PapaBolley community for enabling an affordable meal from Mrs Linch. Thanks again.
-		- Aguiar
-	      </p>
-	    </li>
-	  </ul>
-        </div>
-
-      </div>
-    </div>
-  </section>
-  <!--//END ADD LISTING -->
-
-  <!--============================= ADD LISTING =============================-->
-  <section class="main-block">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="add-listing-wrap">
-            <h2>Reach millions of People in Neighbourhood</h2>
-            <p>Help the community by being a part of it</p>
-          </div>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-md-4">
-          <div class="featured-btn-wrap">
-            <a href="https://goo.gl/forms/TGngZVXx88p1XoJB2" target="_blank" class="btn btn-danger"><span class="ti-plus"></span> Join PapaBolley</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--//END ADD LISTING -->
-  <!--============================= FOOTER =============================-->
-  <footer class="main-block dark-bg">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="copyright">
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            <p>Copyright &copy; 2018 PapaBolley. All rights reserved</p>
-	    <div class="slider-link">
-              <a href="#">Pune</a> | <a href="#">Mumbai</a> | <a href="#">Goa</a> | <a href="#">Cochin</a> | <a href="#">Hyderabad</a> | <a href="#">New York</a> | <a href="#">Chicago</a> | <a href="#">Los Angeles</a> | <a href="#">Berlin</a> | <a href="#">Brussels</a> | <a href="#">Copenhagen</a> | <a href="#">Vienna</a> | <a href="#">Sydney</a> | <a href="#">Melbourn</a> | <a href="#">Budapest</a> | <a href="#">Santiago</a> | <a href="#">Prague</a> | <a href="#">Hong Kong Central</a>
+    <!-- SLIDER -->
+    <section class="slider d-flex align-items-center">
+      <!-- <img src="images/slider.jpg" class="img-fluid" alt="#"> -->
+      <div class="container">
+	<div class="row d-flex justify-content-center">
+          <div class="col-md-12">
+            <div class="slider-title_box">
+              <div class="row">
+		<div class="col-md-12">
+                  <div class="slider-content_wrap">
+                    <h1>Affordable. Hygienic. Social. Food</h1>
+                    <h5>Largest community of home cooks catering the neighbourhood</h5>
+                  </div>
+		</div>
+              </div>
+              <div class="row d-flex justify-content-center">
+		<div class="col-md-10">
+		  <div class="join-buttons">
+                    <a role="button" href="#join" class="btn btn-form">JOIN AS COOK</a>
+		    <a role="button" href="#join" class="btn btn-form foodie-color-background">JOIN AS FOODIE</a>
+		  </div>
+                  <div class="slider-link">
+                    <a href="#">Pune <sup>new</sup></a> | <a href="#">Mumbai <sup>new</sup></a> | <a href="#">Goa</a> | <a href="#">Cochin</a> | <a href="#">Hyderabad</a> | <a href="#">New York</a> | <a href="#">Chicago</a> | <a href="#">Los Angeles</a> | <a href="#">Berlin</a> | <a href="#">Brussels</a> | <a href="#">Copenhagen</a> | <a href="#">Vienna</a> | <a href="#">Sydney</a> | <a href="#">Melbourn</a> | <a href="#">Budapest</a> | <a href="#">Santiago</a> | <a href="#">Prague</a> | <a href="#">Hong Kong Central</a>
+                  </div>
+		</div>
+              </div>
             </div>
-	    <p class="colorlib-courtesy-statement">This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            <ul>
-              <li><div class="fb-share-button" data-href="http://papabolley.com" data-layout="button" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fpapabolley.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div></li>
-                            <li><a href="#"><span class="ti-twitter-alt"></span></a></li>
-                            <li><a href="#"><span class="ti-instagram"></span></a></li>
-                        </ul>
-                    </div>
-                </div>
+          </div>
+	</div>
+      </div>
+    </section>
+    <!--// SLIDER -->
+    <!--//END HEADER -->
+    
+    <!--============================= About / how it works =============================-->
+    <section class="main-block">
+      <div class="container">
+	<div class="row justify-content-center">
+          <div class="col-md-5">
+            <div class="styled-heading">
+              <h3>How it works</h3>
             </div>
+          </div>
+	</div>
+	<div class="row">
+          <div class="col-md-12">
+	    <div class="add-listing-wrap">
+	      <p><i>PapaBolley is the largest trust-based community of home cooks in the world</i> creating unforgettable food experiences daily to the neighbourhood. As a home cook, you earn money by not just providing affordable and tasty home food, but also enrich a foodie's experience with your authentic homely ambience. As a foodie, you get to eat authentic, hygienic food at affordable prices at walking distance from wherever you are, and enjoy experiences of your host at their home.</p>
+            </div>
+	  </div>
+	</div>
+	<div class="row">
+          <!-- Single Special Area -->
+          <div class="col-12 col-md-4">
+            <div class="single-special text-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+              <div class="single-icon">
+		<i class="ti-check" aria-hidden="true"></i>
+              </div>
+              <h4>No extra cooking</h4>
+              <p>Home cooks prepare whatever they had planned to eat. Just cook bit more for guests. No separate cooking!</p>
+            </div>
+          </div>
+          <!-- Single Special Area -->
+          <div class="col-12 col-md-4">
+            <div class="single-special text-center wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+              <div class="single-icon">
+		<i class="ti-direction-alt foodie-color-text" aria-hidden="true"></i>
+              </div>
+              <h4>Foodies Choose</h4>
+              <p>Registered and verified foodies nearby choose the type, experience, pricing and ping cooks to be their dining guest.</p>
+            </div>
+          </div>
+          <!-- Single Special Area -->
+          <div class="col-12 col-md-4">
+            <div class="single-special text-center wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+              <div class="single-icon">
+		<i class="ti-face-smile shared-love-color" aria-hidden="true"></i>
+              </div>
+              <h4>Shared love</h4>
+              <p>Both share the love by rating each other. The community keeps growing by spreading the service.</p>
+            </div>
+          </div>
+	</div>
+      </div>
+    </section>
+    <!--//END About / how it works -->
+    
+    <!--============================= Random Lisings =============================-->
+    <section class="main-block light-bg">
+      <div class="container">
+	<div class="row justify-content-center">
+          <div class="col-md-5">
+            <div class="styled-heading">
+              <h3>The Community</h3>
+            </div>
+          </div>
+	</div>
+	<div class="row">
+          <div class="col-md-12">
+	    <div class="add-listing-wrap">
+	      <p>The community is a family of thousands of <i>PapaBolley Cooks</i> and <i>PapaBolley Foodies</i> spread across all continents in the world. It is a self-driven self-running community aimed at multiplying experiences among people through food.</p> 
+            </div>
+	  </div>
+	</div>
+
+	<div class="row">
+          <div class="col-md-4 featured-responsive">
+            <div class="featured-place-wrap">
+              <img src="images/featured1.jpg" class="img-fluid" alt="#">
+              <span class="featured-rating-orange">7.3</span>
+              <div class="featured-title-box">
+		<h6>The Collins Joy</h6>
+		<p>Irish food</p> <span>• </span>
+		<p>394 Reviews</p> <span> • </span>
+		<p><span>$7</span> (avg)</p>
+		<ul>
+                  <li><span class="icon-location-pin"></span>
+                    <p>2641 Britz Av, Osterbro, DK 1657</p>
+                  </li>
+                  <li><span class="icon-screen-smartphone"></span>
+                    <p>+45 20 7*** **45</p>
+                  </li>
+                  <li><span class="icon-plus"></span>
+                    <p>Music, TV Shows, Lovely dog, Noisy kids</p>
+                  </li>
+
+		</ul>
+		<div class="bottom-icons">
+                  <div class="closed-now">OPENS AT 9AM (CET)</div>
+                  <span class="ti-heart"></span>
+                  <span class="ti-bookmark"></span>
+		</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 featured-responsive">
+            <div class="featured-place-wrap">
+              <img src="images/featured2.jpg" class="img-fluid" alt="#">
+              <span class="featured-rating-green">8.3</span>
+              <div class="featured-title-box">
+		<h6>Cheerz Family Time</h6>
+		<p>Sou. Aus Food </p> <span>• </span>
+		<p>46 Reviews</p> <span> • </span>
+		<p><span>A$10</span></p>
+		<ul>
+                  <li><span class="icon-location-pin"></span>
+                    <p>12 Parkville, Melbourn, AUS 3312</p>
+                  </li>
+                  <li><span class="icon-screen-smartphone"></span>
+                    <p>+61 3 9** ***8</p>
+                  </li>
+                  <li><span class="icon-plus"></span>
+                    <p>Fiction chat, Kids park, Riverside</p>
+                  </li>
+		</ul>
+		<div class="bottom-icons">
+		  <div class="open-now">OPEN NOW</div>
+                  <span class="ti-heart"></span>
+                  <span class="ti-bookmark"></span>
+		</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 featured-responsive">
+            <div class="featured-place-wrap">
+              <img src="images/featured3.jpg" class="img-fluid" alt="#">
+              <span class="featured-rating">5.5</span>
+              <div class="featured-title-box">
+		<h6>Myraids Home</h6>
+		<p>Norwegian </p> <span>• </span>
+		<p>6 Reviews</p> <span> • </span>
+		<p><span>€5</span> (avg)</p>
+		<ul>
+                  <li><span class="icon-location-pin"></span>
+                    <p>43 Műegyetem, Budapest rkp9</p>
+                  </li>
+                  <li><span class="icon-screen-smartphone"></span>
+                    <p>+361 3** **41</p>
+                  </li>
+		  <li><span class="icon-plus"></span>
+                    <p>River, Books, Boat ride, Garden</p>
+                  </li>
+		</ul>
+		<div class="bottom-icons">
+                  <div class="open-now">OPEN NOW</div>
+                  <span class="ti-heart"></span>
+                  <span class="ti-bookmark"></span>
+		</div>
+              </div>
+            </div>
+          </div>
+	</div>
+      </div>
+    </section>
+    <!--//END FEATURED PLACES -->
+
+    
+    <!--============================= Inspiration =============================-->
+    <section class="main-block">
+      <div class="container">
+	<div class="row justify-content-center">
+          <div class="col-md-5">
+            <div class="styled-heading">
+              <h3>Inspiration</h3>
+            </div>
+          </div>
+	</div>
+
+	<div class="row">
+          <div class="col-md-12">
+	    <div class="add-listing-wrap">
+	      <p>PapaBolley is inspired by people who are tired eating at restaurants and clubs at super expensive prices everyday and also to help people who don't find time to carry lunch to work. It is an opportunity for homemakers and families to earn a few bucks by sharing food daily and spread love. Foodies at PapaBolley are also travellers who look to have real-authentic local cusine which is a rare find in restaurants today.</p>
+	      <p>Both the <i>cooks and the foodies are pre-verified</i> by the PapaBolley network before registration. Additionally, the kitchens at homes are also inspected for hygiene and food quality for utmost satisfaction of the community.</p>
+            </div>
+	  </div>
+	</div>
+      </div>
+    </section>
+    <!--//END FIND PLACES -->
+    <!--============================= Reviews =============================-->
+    <section class="main-block sticky-notes-background">
+      <div class="container">
+	<div class="row justify-content-center">
+          <div class="col-md-5">
+            <div class="styled-heading">
+              <h3>Community says</h3>
+            </div>
+          </div>
+	</div>
+	<div class="row">
+          <div class="col-md-4">
+	    <ul id="notes">
+	      <li class="sticky-color-background">
+		<p>Shiela and I didn't just eat, we watched our high school pictures and gigled.
+		  - Rachael
+		</p>
+	      </li>
+	      <li class="alternate-sticky-color-background">
+		<p>I love Goa, Mr Carvalho's house can't be more authentic. Played cricket with the kids too.
+		  - Madison, UK
+		</p>
+	      </li>
+	      <li>		
+		<p>I think m good cook but never got chance. My rating makes me happy. Love good people.
+		  - Művek, Hungary
+		</p>
+	      </li>
+	    </ul>
+          </div>
+
+	  <div class="col-md-4">
+	    <ul id="notes">
+	      <li>
+		<p>I have lunch and watch TV at Mrs. Reddy's house everyday. Shes like a mom away from house and its close to my work.
+		  - Sahil, Lucknow
+		</p>
+	      </li>
+	      <li class="sticky-color-background">
+		<p>Wish I knew about this earlier. I get company for lunch everyday and go out fishing sometimes with them.
+		  - Leachso, NL
+		</p>
+	      </li>
+	      <li class="alternate-sticky-color-background"> 
+		<p>My in-laws are finally happy Im doing something and meeting people. My love for food has scaled thru this platform.
+		  - Seema, India
+		</p>
+	      </li>
+	    </ul>
+          </div>
+
+	  <div class="col-md-4">
+	    <ul id="notes">
+	      <li class="alternate-sticky-color-background">
+		<p>The best part - her dog, is so lovely. He started recognising me in 2 days. Love this place.
+		  - Djokovick
+		</p>
+	      </li>
+	      <li>
+		<p>Don respects me a lot. He comes home everyday for lunch and gets me cookies on the way. Such a sweetheart.
+		  - Sal, Santiago
+		</p>
+	      </li>
+	      <li class="sticky-color-background">
+		<p>I don't make much and outside food makes me sick. Thanks to PapaBolley community for enabling an affordable meal from Mrs Linch. Thanks again.
+		  - Aguiar
+		</p>
+	      </li>
+	    </ul>
+          </div>
+
+	</div>
+      </div>
+    </section>
+    <!--//END ADD LISTING -->
+
+    <!--============================= ADD LISTING =============================-->
+    <section id="join" class="main-block">
+      <div class="container">
+	<div class="row">
+          <div class="col-md-12">
+            <div class="add-listing-wrap">
+              <h2>Reach millions of People in Neighbourhood</h2>
+              <p>Help the community by being a part of it</p>
+            </div>
+          </div>
+	</div>
+	<div class="row justify-content-center">
+          <div class="col-md-4">
+            <div class="featured-btn-wrap">
+              <a href="https://goo.gl/forms/TGngZVXx88p1XoJB2" target="_blank" class="btn btn-danger"><span class="ti-plus"></span> Join PapaBolley</a>
+            </div>
+          </div>
+	</div>
+      </div>
+    </section>
+    <!--//END ADD LISTING -->
+    <!--============================= FOOTER =============================-->
+    <footer class="main-block dark-bg">
+      <div class="container">
+	<div class="row">
+          <div class="col-md-12">
+            <div class="copyright">
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              <p>Copyright &copy; 2018 PapaBolley. All rights reserved</p>
+	      <div class="slider-link">
+		<a href="#">Pune</a> | <a href="#">Mumbai</a> | <a href="#">Goa</a> | <a href="#">Cochin</a> | <a href="#">Hyderabad</a> | <a href="#">New York</a> | <a href="#">Chicago</a> | <a href="#">Los Angeles</a> | <a href="#">Berlin</a> | <a href="#">Brussels</a> | <a href="#">Copenhagen</a> | <a href="#">Vienna</a> | <a href="#">Sydney</a> | <a href="#">Melbourn</a> | <a href="#">Budapest</a> | <a href="#">Santiago</a> | <a href="#">Prague</a> | <a href="#">Hong Kong Central</a>
+              </div>
+	      <p class="colorlib-courtesy-statement">This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              <ul>
+		<li><div class="fb-share-button" data-href="http://papabolley.com" data-layout="button" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fpapabolley.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div></li>
+		<li><a class="twitter-share-button"
+		       href="https://twitter.com/intent/tweet?text=We'll I just joined the PapaBolley Community&url=http%3A%2F%2Fpapabolley.com&hashtags=papabolley"
+		       data-size="large">
+		  Tweet</a></li>
+
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </footer>
     <!--//END FOOTER -->
 
@@ -409,20 +431,20 @@
     <script src="js/bootstrap.min.js"></script>
 
     <script>
-        $(window).scroll(function() {
-            // 100 = The point you would like to fade the nav in.
+     $(window).scroll(function() {
+       // 100 = The point you would like to fade the nav in.
 
-            if ($(window).scrollTop() > 100) {
+       if ($(window).scrollTop() > 100) {
 
-                $('.fixed').addClass('is-sticky');
+         $('.fixed').addClass('is-sticky');
 
-            } else {
+       } else {
 
-                $('.fixed').removeClass('is-sticky');
+         $('.fixed').removeClass('is-sticky');
 
-            };
-        });
+       };
+     });
     </script>
-</body>
+  </body>
 
 </html>

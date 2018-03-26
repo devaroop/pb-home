@@ -280,11 +280,15 @@ p {
       text-decoration: none;
   }
 
-  div.join-buttons button{
+  div.join-buttons a{
       margin-top: 10px;
-      cursor:pointer;
+      padding:20px !important;
   }
 
+  div.join-buttons a:hover{
+      text-decoration: none;
+      color: white;
+  }
 
   .single-special {
     border: 1px solid #eff2f6;
