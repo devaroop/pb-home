@@ -1099,4 +1099,11 @@ footer {
       font-size:10px !important;
       color: #909090 !important;
   }
+  .share-buttons{
+      display: inline-block;
+  }
+  .share-buttons li {
+      margin-left: 10px;
+      float:left;
+  }
 /*# sourceMappingURL=style.css.map */
